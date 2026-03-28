@@ -20,7 +20,7 @@ export const siteConfig = {
   email: "guragain11dibya@gmail.com",
   phone: "+977 9862054267",
   location: "Biratnagar, Nepal",
-  cvFile: "/cv/dibya-guragain-cv.pdf",
+  cvFile: "/cv.pdf",
   social: [
     {
       icon: "linkedin",
