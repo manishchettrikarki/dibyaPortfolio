@@ -47,7 +47,7 @@ export function PortfolioView() {
             <li key={f.value}>
               <button
                 className={`filter-tab ${filter === f.value ? "filter-tab--active" : ""}`}
-                onClick={() => setFilter(f.value)}
+                onClick={() => setFilter(f.value as PortfolioCategory)}
               >
                 {f.label}
               </button>
