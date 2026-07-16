@@ -6,6 +6,7 @@ import { SectionTitle } from "@/components/reusable/sectionTitle";
 import { DownloadIcon } from "@/components/reusable/icons";
 import { animateCounter } from "@/utils";
 import { usePortfolioContent } from "@/utils/usePortfolioContent";
+import type { ResumeItem } from "@/types"
 
 export function AboutView() {
   const { active } = useSectionContext();
@@ -371,7 +372,7 @@ function ResumeList({
   items,
 }: {
   title: string;
-  items: typeof experience;
+  items: ResumeItem[];
 }) {
   return (
     <div>
